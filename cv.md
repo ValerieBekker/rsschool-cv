@@ -8,11 +8,9 @@
 * **Email**: vocaloid-mion@yandex.ru
 * **Discord**: valbekker
 * **GitHub**: [ValerieBekker](https://github.com/ValerieBekker)
-****
 
 ### About Me
 I am 27 years old and have been teaching foreign languages for six years. I also work as a content contributor to the American educational platform Quizlet. I am hardworking, diligent, and perseverant, and I do not mind doing both monotonous work and tasks that require critical thinking. I have fluent English as well as Spanish, which helps me in my line of work as well as communication with people in general since I travel quite often. I decided to explore a new field, as programming has been interesting to me for some time. I am currently focusing on mastering JavaScript as well as HTML and CSS in order to acquire the knowledge that I need to become a front-end developer.
-****
 
 ### Skills
 * HTML
@@ -20,7 +18,6 @@ I am 27 years old and have been teaching foreign languages for six years. I also
 * JavaScript (Basic)
 * Git
 * Photoshop
-****
 
 ### Code Examples
 ```
@@ -34,7 +31,6 @@ function check (givenNumber) {
             } else return givenNumber;
 }
 ```
-****
 
 ### Education
 * **Ural Federal University** 
@@ -43,7 +39,6 @@ function check (givenNumber) {
     + Basic Javascript, HTML, CSS
 * **RS School**
     + Front-End Development
-****
 
 ### Languages
 * **Russian**: Native speaker
