@@ -1,9 +1,141 @@
-.box {
-    background: red;
-    height: 200px;
-    width: 200px;
-  }
-  
-  .box:empty {
-    background: lime;
-  }
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    margin: 5px;
+    padding: 5px;
+}
+.avatar {
+    max-width: 25%;
+    max-height: 25%;
+    border-style: double;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    background-color:rgb(224, 224, 235);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    background-color:rgb(224, 224, 235);
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color:black;
+    transition: linear 0.2s;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color:rgb(86, 86, 137);
+}
+
+
+.section {
+    width: 50%;
+}
+
+.main-container .section {
+    padding: 10px;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50%;
+    padding: 1em;
+}
+
+.section-profile-title {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.section-title {
+    color: rgba(55, 55, 97, 0.965);
+}
+
+.section-list {
+    list-style: none;
+    padding: 0;
+}
+
+.section-list-item {
+    position: relative;
+    padding-left: 20px;
+}
+
+.section-list-item::before {
+    content: "\274D";
+    position: relative;
+    left: auto;
+    right: 10px;
+}
+
+
+.contact-link {
+    text-decoration: none;
+    color:rgb(86, 86, 137);
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+    color:rgb(86, 86, 137);
+}
+
+.code-example {
+    color:rgb(41, 41, 61);
+    white-space: pre;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.github-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color:black;
+    transition: linear 0.2s;
+}
+
+.github-link:hover {
+    text-decoration: underline;
+    color:rgb(86, 86, 137);
+}
+
+.rss-logo {
+    width: 150px;
+    height: auto;
+}
