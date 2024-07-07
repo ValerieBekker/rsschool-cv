@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/cv.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img class="avatar" src="./assets/photo_2024-07-02_20-41-53.jpg" alt="avatar">
+                <div class="section-profile-title">
+                    <h1 class="section-title">Valeriia Bekker</h1>
+                    <h3>Junior Front-End Developer</h3>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-list-item">Current Location: Batumi, Georgia</li>
+                    <li class="section-list-item">Phone number: +995 557 942 787</li>
+                    <li class="section-list-item">Email: <a href="mailto:vocaloid-mion@yandex.ru"
+                            class="contact-link">vocaloid-mion@yandex.ru</a></li>
+                    <li class="section-list-item">Discord: <a href="https://discord.com/invite/valbekker"
+                            class="contact-link">#valbekker</a></li>
+                    <li class="section-list-item">GitHub: <a href="https://github.com/valeriebekker"
+                            class="contact-link">ValerieBekker</a></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I am 27 years old and have been teaching foreign languages for six years. I also work as a content
+                    contributor to the American educational platform Quizlet. I am hardworking, diligent, and
+                    perseverant, and I do not mind doing both monotonous work and tasks that require critical thinking.
+                    I have fluent English as well as Spanish, which helps me in my line of work as well as communication
+                    with people in general since I travel quite often. I decided to explore a new field, as programming
+                    has been interesting to me for some time. I am currently focusing on mastering JavaScript as well as
+                    HTML and CSS in order to acquire the knowledge that I need to become a front-end developer.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-list-item">HTML</li>
+                    <li class="section-list-item">CSS</li>
+                    <li class="section-list-item">JavaScript</li>
+                    <li class="section-list-item">Git</li>
+                    <li class="section-list-item">Photoshop</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre><code class="code-example">
+function check(givenNumber) {
+    if (givenNumber % 3 === 0 && givenNumber % 5 === 0) {
+        return 'FizzBuzz';
+    } else if (givenNumber % 3 === 0) {
+        return 'Fizz';
+    } else if (givenNumber % 5 === 0) {
+        return 'Buzz';
+    } else {
+        return givenNumber;
+    }
+}
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Ural Federal University (Linguistics and International Relations)</p>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                    <li class="section-list-item">HTML Academy (Basic Javascript, HTML, CSS)</li>
+                    <li class="section-list-item">RS School (Front-End Development)</li>
+                </ul>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="section-list">
+                    <li class="section-list-item"><a href="https://valeriebekker.github.io/rsschool-cv/"
+                            class="contact-link">CV (RS School)</a></li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list">
+                    <li class="section-list-item">Russian: Native Speaker</li>
+                    <li class="section-list-item">English: C1 (Advanced)</li>
+                    <li class="section-list-item">Spanish: B1 (Intermediate)</li>
+                    <li class="section-list-item">German: B1 (Intermediate)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container"></div>
+        <p>© 2024</p>
+        <a href="https://github.com/ValerieBekker" class="github-link">ValerieBekker</a>
+        <a href="https://rs.school/courses/javascript-preschool-ru" class="rss-link"><img src="./assets/rss-logo.png"
+                class="rss-logo" alt="rss-logo"></a>
+    </footer>
+</body>
+
+</html>
